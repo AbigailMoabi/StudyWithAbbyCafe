@@ -1,0 +1,57 @@
+/* general css: background color and font */
+
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #222222;
+}
+
+/* 2. navigation */
+
+nav {
+    background-color: #2b2b2b;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 35px;
+    height: 35px;
+}
+
+.logo span {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #bbbbbb;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+a.active {
+    color: #ffffff;
+}
