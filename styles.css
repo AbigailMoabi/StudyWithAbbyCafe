@@ -174,33 +174,20 @@ footer p {
 
 -------------/* the CSS FOR THE MENU PAGE */-------------
 
-/* Menu page */
-.page-hero {
-    background-color: #2b2b2b;
-    padding: 40px 30px;
-    text-align: center;
-}
-
-.page-hero h1 {
-    color: #ffffff;
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 8px;
-}
-
-.page-hero p {
-    color: #bbbbbb;
-    font-size: 14px;
-}
-
-/* Menu content */
+/* Menu page - two columns */
 .menu-page {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
     padding: 40px;
+    align-items: flex-start;
 }
 
-/* Each category */
+/* Each category takes half the width */
 .menu-category {
-    margin-bottom: 35px;
+    flex: 1;
+    min-width: 300px;
+    margin-bottom: 20px;
 }
 
 .menu-category h2 {
@@ -219,10 +206,10 @@ footer p {
     color: #333333;
 }
 
-/* Grid layout for photos */
+/* Grid for photos */
 .menu-grid {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     align-items: flex-start;
 }
 
@@ -239,13 +226,14 @@ footer p {
 
 .menu-photos img {
     width: 100%;
-    height: 160px;
+    height: 150px;
     object-fit: cover;
     border-radius: 10px;
 }
 
-/* Combo deals */
+/* Combo - full width */
 .combo {
+    flex: 100%;
     background-color: #fff4ef;
     padding: 16px;
     border-radius: 10px;
