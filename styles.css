@@ -4,15 +4,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #188374;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: colun;
+   
 }
   
-main{
-    flex: 1;
-}
-
 /* Navigation */
 nav {
     background-color: #e0c27b;
@@ -219,7 +213,7 @@ footer p {
 .menu-photo img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 
 /* Combo */
