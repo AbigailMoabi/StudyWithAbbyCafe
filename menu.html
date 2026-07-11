@@ -28,7 +28,11 @@
     </header>
 
     <main class="menu-page">
-      <section class="menu-category">
+
+<!-- this is the row 1 which displays the coffee list followed by photo, tea then non coffee lists -->
+        
+<div class="menu-row">
+      <section class="menu-col">
         <h2>Coffee</h2>
         <p>Double Espresso - P18.00</p>
         <p>Espresso - P17.00</p>
@@ -37,24 +41,30 @@
     </section>
   
     <div class="menu-photos">
-        <img src="coffee1.jpg" alt="Coffee" width="280" height="200">
-        <img src="coffee2.jpg" alt="Coffee" width="280" height="200">
+        <img src="coffee1.jpg" alt="Coffee" width="280" height="160">   
     </div>
   
-      <section class="menu-category">
+      <section class="menu-col">
         <h2>Tea</h2>
         <p>Mint Tea - P15.00</p>
         <p>Mango Tea - P15.00</p>
         <p>Jasmine - P16.00</p>
-      </section>
 
-      <section class="menu-category"
-      <h2>Non Coffee</h2>
+         <h2>Non Coffee</h2>
     <p>Hot Chocolate - P12.00</p>
     <p>Matcha Latte - P15.00</p>
-     </section>
+      </section>
+    </div>
+  
+     <!-- this is row 2  that displays the photo on the left side followed by the bites list in the middle then a photo on the right side -->
+      
+    <div class="menu-row">
 
-    <section class="menu-category">
+    <div class="menu-photos">
+     <img src="coffee2.jpg" alt="Coffee" width="280" height="200">
+   </div>
+
+     <section class="menu-col">
         <h2>Bites</h2>
         <p>Brownies (x2) - P8.00</p>
         <p>Plain Muffins (x2) - P6.00</p>
@@ -62,19 +72,16 @@
         <p>Cookies (x3) - P8.00</p>
     </section>
 
-        <section class="menu-category combo">
-            <h2>Combo Deals</h2>
-            <div class="menu-items">
-                <p>Any tea + 3x muffins......P25.00</p>
-                <p>Any café + 4x Brownies....P25.00</p>
-                <p>Any tea + 4x cookies......P27.00</p>
-            </div>
-        </section>
-
-        <div class="menu-photos">
-                    <img src="bites.jpg" alt="Bites selection" width="280" height="220" >
+ <div class="menu-photos">
+                    <img src="bites.jpg" alt="Bites selection" width="280" height="160" >
                 </div>
-
+            </div>
+        <section class="combo">
+            <h2>Combo Deals</h2>
+                <p>Any tea + 3x muffins - P25.00</p>
+                <p>Any café + 4x Brownies - P25.00</p>
+                <p>Any tea + 4x cookies - P27.00</p>
+        </section>
 
     </main>
 

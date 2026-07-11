@@ -193,12 +193,13 @@ footer p {
 .menu-category p {
     font-size: 14px;
     padding: 6px 0;
-    border-bottom: 1px solid #eeeeee;
     color: #333333;
 }
 
 .menu-photos {
     width: 180px;
+    float: right;
+    margin-left: 15px;
 }
 
 .menu-photos img {
@@ -210,7 +211,7 @@ footer p {
 
 .combo {
     width: 45%;
-    background-color: #fff4ef;
+    background-color: #802244;
     padding: 16px;
     border-radius: 10px;
 }
@@ -309,7 +310,7 @@ footer p {
 
 /* Feedback page */
 .feedback-bg {
-    background-color: #f2e8df;
+    background-color: #996c45;
     padding: 50px 20px;
 }
 
