@@ -1,17 +1,9 @@
-/* General - background color and font */
+/* General */
 body {
     font-family: arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#fdf6f0;
-    color: #222222;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex: 1;
+    background-color: #fdf6f0;
 }
 
 /* Navigation */
@@ -36,7 +28,7 @@ nav {
 
 .logo span {
     color: #ffffff;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -60,12 +52,11 @@ a.active {
     font-weight: bold;
 }
 
-/* Hero section */
+/* Home page */
 .hero {
     display: flex;
     gap: 40px;
-    padding: 60px 40px;
-    align-items: flex-start;
+    padding: 50px 40px;
 }
 
 .hero-left {
@@ -73,47 +64,48 @@ a.active {
 }
 
 .hero-left h1 {
-    font-size: 56px;
+    font-size: 42px;
     font-weight: bold;
-    margin-bottom: 14px;
     color: #1a1a1a;
-    line-height: 1.2;
+    margin-bottom: 12px;
 }
 
-/* Tagline - Affordable. Local. Quiet Corners */
 .tagline {
     color: #d4622a;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
-    letter-spacing: 2px;
-    margin-bottom: 18px;
+    margin-bottom: 16px;
 }
 
 .hero-left p {
-    font-size: 34px;
-    line-height: 1.9;
-    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 1.8;
     color: #333333;
+    margin-bottom: 20px;
 }
- 
-/* Button */
+
+.wifi-text {
+    font-size: 15px;
+    font-weight: bold;
+    color: #d4622a;
+    margin-top: 10px;
+}
+
 .btn {
     display: inline-block;
     background-color: #d4622a;
     color: #ffffff;
-    padding: 13px 28px;
+    padding: 12px 26px;
     text-decoration: none;
     border-radius: 25px;
-    font-size: 25px;
+    font-size: 14px;
     font-weight: bold;
-    margin-top: 10px;
 }
 
 .btn:hover {
     background-color: #b5481a;
 }
 
-/* Cafe photo and status card */
 .hero-right {
     flex: 1;
     display: flex;
@@ -121,41 +113,28 @@ a.active {
     gap: 15px;
 }
 
-/* Increased image height so that it is visible clearly */
 .hero-right img {
     width: 100%;
-    height: 460px;
-    object-position: center center;
+    height: 380px;
     object-fit: cover;
-    border-radius: 14px;
+    border-radius: 12px;
 }
 
-/* Status card */
 .status {
-    background-color: #705f5f;
-    border-radius: 12px;
-    padding: 18px 30px;
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    padding: 16px 20px;
 }
 
 .status p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
-    color: #fbf9f9;
-    margin-bottom: 8px;
+    color: #ffffff;
+    margin-bottom: 6px;
 }
 
-/* Open indicator status text */
 .open {
     color: #4ade80;
-    font-weight: bold;
-}
-
-/* WiFi text */
-.wifi-text {
-    font-size: 30px;
-    font-weight: bold;
-    color: #d4622a;
-    margin-top: 8px;
 }
 
 /* Footer */
@@ -171,20 +150,18 @@ footer p {
     margin: 4px 0;
 }
 
-
--------------/* the CSS FOR THE MENU PAGE */-------------
-
+/* Page heading - menu, about, contact */
 .page-hero {
     background-color: #2b2b2b;
-    padding: 40px 30px;
+    padding: 35px 30px;
     text-align: center;
 }
 
 .page-hero h1 {
     color: #ffffff;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
 }
 
 .page-hero p {
@@ -192,50 +169,45 @@ footer p {
     font-size: 14px;
 }
 
-/* menu*/
+/* Menu page */
 .menu-page {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
     padding: 40px;
-    align-items: flex-start;
 }
 
 .menu-category {
     width: 45%;
-    margin-bottom: 20px;
 }
 
 .menu-category h2 {
-    font-size: 20px;
+    font-size: 18px;
     color: #d4622a;
     font-weight: bold;
     border-bottom: 2px solid #d4622a;
-    padding-bottom: 6px;
-    margin-bottom: 12px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .menu-category p {
-    font-size: 15px;
-    padding: 7px 0;
+    font-size: 14px;
+    padding: 6px 0;
     border-bottom: 1px solid #eeeeee;
     color: #333333;
 }
-/*menu images*/
+
 .menu-photos {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 200px;
+    width: 180px;
 }
 
 .menu-photos img {
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    border-radius: 8px;
+    margin-bottom: 8px;
 }
 
-/* Combo */
 .combo {
     width: 45%;
     background-color: #fff4ef;
@@ -243,13 +215,11 @@ footer p {
     border-radius: 10px;
 }
 
- -------/*About */---------
-
- about {
+/* About page */
+.about {
     display: flex;
-    gap: 40px;
+    gap: 30px;
     padding: 50px 40px;
-    align-items: flex-start;
 }
 
 .about-text {
@@ -257,17 +227,17 @@ footer p {
 }
 
 .about-text h1 {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
-    margin-bottom: 16px;
     color: #1a1a1a;
+    margin-bottom: 14px;
 }
 
 .about-text p {
     font-size: 15px;
-    line-height: 1.9;
-    margin-bottom: 12px;
+    line-height: 1.8;
     color: #555555;
+    margin-bottom: 12px;
 }
 
 .about-photo {
@@ -277,25 +247,23 @@ footer p {
 
 .about-photo img {
     width: 100%;
-    max-width: 260px;
+    max-width: 250px;
     height: auto;
-    border-radius: 12px;
+    border-radius: 10px;
 }
 
 .about-photo p {
-    margin-top: 8px;
     color: #d4622a;
     font-size: 13px;
     font-weight: bold;
+    margin-top: 8px;
 }
 
--------/* CONTACT */--------
-
+/* Contact page */
 .contact {
     display: flex;
-    gap: 40px;
+    gap: 30px;
     padding: 50px 40px;
-    align-items: flex-start;
 }
 
 .contact-text {
@@ -303,22 +271,22 @@ footer p {
 }
 
 .contact-text h1 {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: bold;
-    margin-bottom: 10px;
     color: #1a1a1a;
+    margin-bottom: 10px;
 }
 
 .contact-text h2 {
-    font-size: 17px;
+    font-size: 16px;
     color: #d4622a;
     font-weight: bold;
-    margin-top: 18px;
+    margin-top: 16px;
     margin-bottom: 6px;
 }
 
 .contact-text p {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.8;
     color: #555555;
 }
@@ -328,19 +296,80 @@ footer p {
     text-decoration: none;
 }
 
-.contact-text a:hover {
-    text-decoration: underline;
-}
-
 .contact-photo {
     flex: 1;
 }
 
 .contact-photo img {
     width: 100%;
-    max-width: 280px;
+    max-width: 260px;
     height: auto;
-    border-radius: 12px;
+    border-radius: 10px;
 }
 
+/* Feedback page */
+.feedback-bg {
+    background-color: #f2e8df;
+    padding: 50px 20px;
+}
 
+.feedback {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 28px;
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+.feedback h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.feedback p {
+    font-size: 13px;
+    color: #888888;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feedback label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.feedback input,
+.feedback textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    margin-bottom: 14px;
+}
+
+.feedback textarea {
+    height: 100px;
+}
+
+.feedback button {
+    display: block;
+    width: 130px;
+    margin: 0 auto;
+    background-color: #d4622a;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 13px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.feedback button:hover {
+    background-color: #b5481a;
+}
