@@ -337,7 +337,7 @@ footer p {
 }
 
 .feedback {
-    background-color: #128b30;
+    background-color: #8b6712;
     border-radius: 12px;
     padding: 28px;
     max-width: 420px;
@@ -347,14 +347,14 @@ footer p {
 .feedback h1 {
     font-size: 22px;
     font-weight: bold;
-    color: #f1814d;
+    color: #3b6812;
     text-align: center;
     margin-bottom: 6px;
 }
 
 .feedback p {
     font-size: 13px;
-    color: #934918;
+    color: #7bb88b;
     text-align: center;
     margin-bottom: 20px;
 }
