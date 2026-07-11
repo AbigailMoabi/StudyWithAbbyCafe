@@ -3,7 +3,7 @@ body {
     font-family: arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#f1c9a7;
+    background-color:#fdf6f0;
     color: #222222;
     min-height: 100vh;
     display: flex;
@@ -93,7 +93,7 @@ a.active {
     font-size: 34px;
     line-height: 1.9;
     margin-bottom: 20px;
-    color: #ccc4c4;
+    color: #333333;
 }
  
 /* Button */
