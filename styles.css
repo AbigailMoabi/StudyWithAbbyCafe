@@ -3,12 +3,12 @@ body {
     font-family: arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fdf6f0;
+    background-color: #7d160b;
 }
 
 /* Navigation */
 nav {
-    background-color: #2b2b2b;
+    background-color: #9f2f2f;
     padding: 15px 30px;
     display: flex;
     justify-content: space-between;
@@ -206,7 +206,7 @@ footer p {
     width: 100%;
     height: auto;
     border-radius: 8px;
-    margin-bottom: 8px;
+   
 }
 
 .combo {
