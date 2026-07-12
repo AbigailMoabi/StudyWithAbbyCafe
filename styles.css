@@ -192,9 +192,9 @@ footer p {
 
 .menu-col h2 {
     font-size: 20px;
-    color: #ae8c05;
+    color: #f5dd80;
     font-weight: bold;
-    border-bottom: 2px solid #712804;
+    border-bottom: 2px solid #7d5540;
     padding-bottom: 5px;
     margin-bottom: 12px;
     margin-top: 16px;
@@ -222,7 +222,7 @@ footer p {
 
 /* Combo */
 .combo {
-    background-color: #198920;
+    background-color: #709873;
     padding: 16px;
     border-radius: 10px;
     margin-top:10px;
@@ -232,7 +232,7 @@ footer p {
     font-size: 20px;
     color: #000f04;
     font-weight: bold;
-    border-bottom: 2px solid #5c0505;
+    border-bottom: 2px solid #eeba59;
     padding-bottom: 5px;
     margin-bottom: 12px;
 }
@@ -280,7 +280,7 @@ footer p {
 }
 
 .about-photo p {
-    color: #853812;
+    color: #f89665;
     font-size: 13px;
     font-weight: bold;
     margin-top: 8px;
@@ -300,13 +300,13 @@ footer p {
 .contact-text h1 {
     font-size: 28px;
     font-weight: bold;
-    color: #731717;
+    color: #906207;
     margin-bottom: 10px;
 }
 
 .contact-text h2 {
     font-size: 16px;
-    color: #0e6407;
+    color: #000000;
     font-weight: bold;
     margin-top: 16px;
     margin-bottom: 6px;
@@ -315,11 +315,11 @@ footer p {
 .contact-text p {
     font-size: 14px;
     line-height: 1.8;
-    color: #53c12b;
+    color: #ffffff;
 }
 
 .contact-text a {
-    color: #177451;
+    color: #a1eace;
     text-decoration: none;
 }
 
@@ -341,7 +341,7 @@ footer p {
 }
 
 .feedback {
-    background-color: #8b6712;
+    background-color: #f1a043;
     border-radius: 12px;
     padding: 28px;
     max-width: 420px;
@@ -351,14 +351,14 @@ footer p {
 .feedback h1 {
     font-size: 22px;
     font-weight: bold;
-    color: #3b6812;
+    color: #69c216;
     text-align: center;
     margin-bottom: 6px;
 }
 
 .feedback p {
     font-size: 13px;
-    color: #7bb88b;
+    color: #ffffff;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -375,7 +375,7 @@ footer p {
     width: 100%;
     padding: 10px;
     font-size: 13px;
-    border: 1px solid #77f788;
+    border: 1px solid #04520f;
     border-radius: 6px;
     margin-bottom: 14px;
 }
