@@ -341,7 +341,7 @@ footer p {
 }
 
 .feedback {
-    background-color: #f1a043;
+    background-color: #3d9d5d;
     border-radius: 12px;
     padding: 28px;
     max-width: 420px;
@@ -351,14 +351,14 @@ footer p {
 .feedback h1 {
     font-size: 22px;
     font-weight: bold;
-    color: #69c216;
+    color: #a3641c;
     text-align: center;
     margin-bottom: 6px;
 }
 
 .feedback p {
     font-size: 13px;
-    color: #ffffff;
+    color: #8b5608;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -388,7 +388,7 @@ footer p {
     display: block;
     width: 130px;
     margin: 0 auto;
-    background-color: #2b9879;
+    background-color: #784111;
     color: #ffffff;
     padding: 10px;
     font-size: 13px;
