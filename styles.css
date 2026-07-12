@@ -1,6 +1,6 @@
 /* General */
 body {
-    font-family: arial, sans-serif;
+    font-family: serif, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #188374;
@@ -28,14 +28,15 @@ nav {
 }
 
 .logo img {
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
 }
 
 .logo span {
-    color: #1b3b1f;
+    color: #85d590;
     font-size: 16px;
     font-weight: bold;
+    font-family: Georgia, serif;
 }
 
 nav ul {
@@ -70,10 +71,13 @@ a.active {
 }
 
 .hero-left h1 {
-    font-size: 42px;
+    font-size: 50px;
     font-weight: bold;
-    color: #122c1d;
+    color: #cd9a5b;
     margin-bottom: 12px;
+    font-family: Georgia, serif ;
+    text-shadow: #073e19;
+
 }
 
 .tagline {
@@ -86,7 +90,7 @@ a.active {
 .hero-left p {
     font-size: 15px;
     line-height: 1.8;
-    color: #895506;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
@@ -109,7 +113,7 @@ a.active {
 }
 
 .btn:hover {
-    background-color: #b5481a;
+    background-color: #eb9b79;
 }
 
 .hero-right {
@@ -126,7 +130,7 @@ a.active {
 }
 
 .status {
-    background-color: #855c05;
+    background-color: #e0c998;
     border-radius: 10px;
     padding: 16px 20px;
 }
@@ -157,8 +161,8 @@ footer p {
 
 /* Page heading - menu */
 .page-hero {
-    background-color: #be7a0e;
-    padding: 35px 30px;
+    background-color: #2D3E31;
+    padding: 20px 15px;
     text-align: center;
 }
 
@@ -170,8 +174,8 @@ footer p {
 }
 
 .page-hero p {
-    color: #0b581a;
-    font-size: 14px;
+    color: #ffffff;
+    font-size: 17px;
 }
 
 /* Menu page */
@@ -192,9 +196,9 @@ footer p {
 
 .menu-col h2 {
     font-size: 20px;
-    color: #f5dd80;
+    color: #ffffff;
     font-weight: bold;
-    border-bottom: 2px solid #7d5540;
+    border-bottom: 2px solid #6B8E23;
     padding-bottom: 5px;
     margin-bottom: 12px;
     margin-top: 16px;
@@ -207,16 +211,17 @@ footer p {
 .menu-col p {
     font-size: 15px;
     padding: 6px 0;
-    color: #832a0f;
+    color: #E6D5C3;
 }
 
-.menu-photo {
+.menu-photos {
     flex: 1;
 }
 
-.menu-photo img {
-    width: 100%;
-    height: auto;
+.menu-photos img {
+    width: 280;
+    height: 200px;
+    object-fit: cover;
     border-radius: 12px;
 }
 
@@ -230,7 +235,7 @@ footer p {
 
 .combo h2 {
     font-size: 20px;
-    color: #000f04;
+    color: #0f0d00;
     font-weight: bold;
     border-bottom: 2px solid #eeba59;
     padding-bottom: 5px;
