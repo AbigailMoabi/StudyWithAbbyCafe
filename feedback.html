@@ -12,7 +12,7 @@
 <body>
     <nav>
         <div class="logo">
-            <img src="logo.png" alt="Study With Abby Café Logo" width="50" height="50" >
+            <img src="logo.png" alt="Study With Abby Café Logo" width="60" height="60" >
             <span>Study With Abby Café</span>
         </div>
         <ul>
@@ -44,8 +44,7 @@
                 <textarea id="message" name="message" rows="5"></textarea>
 
                 <button type="submit" class="btn btn-success rounded-pill px-4">Submit -></button>
-                 
-                </form>
+               </form>
         </section>
     </main>
 
@@ -55,12 +54,11 @@
     </footer>
 
  <script>
-    /* this is javascript that shows a thank you message popping up right after the user submits the feedback*/
-    document.getElementById(feedbackForm).onsubmit = function(event){
+    <!-- this is javascript that shows a thank you message popping up right after the user submits the feedback-->
+    document.getElementById("feedbackForm").onsubmit = function(event){
         event.preventDefault();
         alert("Your feedback is highly appreciated. Thank you for your time!");
     };
-
  </script>
 
 </body>
