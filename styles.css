@@ -313,6 +313,7 @@ footer p {
     font-weight: bold;
     color: #2D3E31;
     margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .contact-text h2 {
