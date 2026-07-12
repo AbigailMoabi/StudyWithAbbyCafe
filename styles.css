@@ -4,7 +4,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #188374;
+    display:flex;
+    flex-direction: column; /* this aligns everything to stack from top to bottom*/
    
+}
+main {
+    flex: 1; /* when I didnt inclded this, the footer was floating in mid-air.So when I added this, the footer got pushed all the way to the bottom of the page to sit perfectly*/
 }
   
 /* Navigation */
@@ -116,9 +121,8 @@ a.active {
 
 .hero-right img {
     width: 100%;
-    height: 380px;
-    object-fit: cover;
-    border-radius: 12px;
+    height: auto;
+    border-radius: 14px;
 }
 
 .status {
