@@ -1,6 +1,6 @@
 /* General */
 body {
-    font-family: serif, sans-serif;
+    font-family:sans-serif;
     margin: 0;
     padding: 0;
     background-color: #188374;
@@ -28,13 +28,13 @@ nav {
 }
 
 .logo img {
-    width: 50px;
-    height: 50px;
+    width:60px;
+    height:60px;
 }
 
 .logo span {
-    color: #85d590;
-    font-size: 16px;
+    color: #000000;
+    font-size: 20px;
     font-weight: bold;
     font-family: Georgia, serif;
 }
@@ -75,8 +75,8 @@ a.active {
     font-weight: bold;
     color: #cd9a5b;
     margin-bottom: 12px;
-    font-family: Georgia, serif ;
-    text-shadow: #073e19;
+    font-family: Georgia, serif;
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -130,7 +130,7 @@ a.active {
 }
 
 .status {
-    background-color: #e0c998;
+    background-color: #b19a67;
     border-radius: 10px;
     padding: 16px 20px;
 }
@@ -138,7 +138,7 @@ a.active {
 .status p {
     font-size: 14px;
     font-weight: bold;
-    color: #abaaa9;
+    color: #000000;
     margin-bottom: 6px;
 }
 
@@ -219,10 +219,10 @@ footer p {
 }
 
 .menu-photos img {
-    width: 280;
-    height: 200px;
+    width: 380;
+    height: 300px;
     object-fit: cover;
-    border-radius: 12px;
+    border-radius: 10px;
 }
 
 /* Combo */
@@ -235,7 +235,7 @@ footer p {
 
 .combo h2 {
     font-size: 20px;
-    color: #0f0d00;
+    color: #2D3E31;
     font-weight: bold;
     border-bottom: 2px solid #eeba59;
     padding-bottom: 5px;
@@ -243,7 +243,7 @@ footer p {
 }
 
 .combo p {
-    font-size: 15px;
+    font-size: 18px;
     padding: 5px 0;
     color: #ffffff;
 }
@@ -303,15 +303,15 @@ footer p {
 }
 
 .contact-text h1 {
-    font-size: 28px;
+    font-size: 35px;
     font-weight: bold;
-    color: #906207;
+    color: #2D3E31;
     margin-bottom: 10px;
 }
 
 .contact-text h2 {
     font-size: 16px;
-    color: #000000;
+    color:#6B8E23;
     font-weight: bold;
     margin-top: 16px;
     margin-bottom: 6px;
@@ -341,12 +341,12 @@ footer p {
 
 /* Feedback page */
 .feedback-bg {
-    background-color: #996c45;
+    background-color:#188374;
     padding: 50px 20px;
 }
 
 .feedback {
-    background-color: #3d9d5d;
+    background-color: #04520f;
     border-radius: 12px;
     padding: 28px;
     max-width: 420px;
@@ -356,7 +356,7 @@ footer p {
 .feedback h1 {
     font-size: 22px;
     font-weight: bold;
-    color: #a3641c;
+    color: #ffffff;
     text-align: center;
     margin-bottom: 6px;
 }
