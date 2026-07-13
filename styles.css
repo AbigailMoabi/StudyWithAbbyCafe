@@ -125,11 +125,11 @@ a.active {
 
 .hero-right img {
     width: 100%;
-    height: auto;
     border-radius: 14px;
     display: block;
     margin:0 auto;
-    max-width: 500px;
+    max-width: 400px;
+    height:auto;
 }
 
 .status {
@@ -161,6 +161,8 @@ footer p {
     font-size: 12px;
     margin: 4px 0;
     width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 /* Page heading - menu */
@@ -341,7 +343,7 @@ footer p {
 
 .contact-photo img {
     width: 100%;
-    max-width: 260px;
+    max-width: 300px;
     height: auto;
     border-radius: 10px;
 }
