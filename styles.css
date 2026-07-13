@@ -19,6 +19,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -129,7 +131,8 @@ a.active {
     display: block;
     margin:0 auto;
     max-width: 400px;
-    height:auto;
+    height:450;
+    object-fit: cover;
 }
 
 .status {
@@ -154,6 +157,8 @@ footer {
     background-color: #a3e4a8;
     padding: 20px 30px;
     text-align: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 footer p {
@@ -343,8 +348,9 @@ footer p {
 
 .contact-photo img {
     width: 100%;
-    max-width: 300px;
-    height: auto;
+    max-width: 330px;
+    height: 230;
+    object-fit: cover;
     border-radius: 10px;
 }
 
