@@ -131,7 +131,7 @@ a.active {
     display: block;
     margin:0 auto;
     max-width: 400px;
-    height:350;
+    height:330;
     object-fit: cover;
 }
 
